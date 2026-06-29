@@ -1,12 +1,35 @@
 # API Gateway
 
-## Purpose
+## What is an API Gateway?
 
-This document explains:
+An API Gateway acts as the single entry point for client requests in a microservices architecture.
 
-- What an API Gateway is
-- Why API Gateways are used
-- Spring Cloud Gateway
-- Routing
+Instead of exposing every service directly to clients, all requests first pass through the Gateway.
+
+## Responsibilities
+
+- Request Routing
+- Load Balancing
+- Authentication
+- Authorization
+- Logging
+- Request Filtering
+- Response Transformation
+
+## Benefits
+
+- Simplifies client communication.
+- Centralizes cross-cutting concerns.
+- Hides internal service details.
+- Improves maintainability.
+
+## Spring Cloud Gateway
+
+Spring Cloud Gateway is the gateway implementation used in this project.
+
+It provides:
+
+- Route predicates
 - Filters
-- Real-world use cases
+- Service Discovery integration
+- Load balancing support

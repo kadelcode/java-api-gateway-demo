@@ -1,11 +1,23 @@
 # Microservices
 
-## Purpose
+## Definition
 
-This document explains:
+Microservices architecture is an approach where an application is composed of multiple independently deployable services.
 
-- Monolith vs Microservices
-- Benefits
-- Challenges
-- Service Independence
-- Communication Patterns
+Each service focuses on a single business capability.
+
+## Advantages
+
+- Independent deployment
+- Scalability
+- Fault isolation
+- Technology flexibility
+
+## Challenges
+
+- Distributed systems complexity
+- Service communication
+- Monitoring
+- Security
+
+This project focuses on understanding communication between services using Spring Cloud technologies.
