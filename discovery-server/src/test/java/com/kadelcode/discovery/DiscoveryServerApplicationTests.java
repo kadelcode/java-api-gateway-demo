@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DiscoveryServerApplicationTests {
 
     @Test
-    @DisplayName("Should load the Sprint application context")
+    @DisplayName("Should load the Spring application context")
     void contextLoads() {
     }
 
