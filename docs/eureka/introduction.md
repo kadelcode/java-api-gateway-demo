@@ -1,5 +1,20 @@
 # Eureka Service Discovery
 
-## Purpose
+## What is Service Discovery?
 
-This document introduces Eureka and explains how services register themselves and discover one another in a distributed system.
+Service Discovery enables services to locate one another without hard-coded IP addresses or ports.
+
+## Eureka
+
+Netflix Eureka is a service registry.
+
+Services register themselves when they start.
+
+The Gateway queries Eureka to discover service locations.
+
+## Benefits
+
+- Dynamic registration
+- Automatic discovery
+- Better scalability
+- Reduced configuration
