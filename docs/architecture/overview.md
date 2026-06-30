@@ -23,10 +23,12 @@ E[Product];
 F[Order];
 
 A --> B
-B --> C
-C --> D
-C --> E
-C --> F
+B --> D
+B --> E
+B --> F
+D --> C
+E --> C
+F --> C
 ```
 
 ## Request Flow
