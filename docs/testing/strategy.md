@@ -30,4 +30,3 @@ Every service should include:
 - Service tests
 - Controller tests
 - Integration tests
-- 
