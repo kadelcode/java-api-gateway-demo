@@ -36,10 +36,12 @@ E[Product Service];
 F[Order Service];
 
 A --> B
-B --> C
-C --> D
-C --> E
-C --> F
+B --> D
+B --> E
+B --> F
+D --> C
+E --> C
+F --> C
 ```
 
 ---
