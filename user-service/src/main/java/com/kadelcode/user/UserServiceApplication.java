@@ -1,4 +1,4 @@
-package com.kadelcode.userservice;
+package com.kadelcode.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
